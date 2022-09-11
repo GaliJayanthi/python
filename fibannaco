@@ -4,7 +4,7 @@ count=0
 if nterms<=0:
   print("Please enter the positive integer")
 elif nterms==1
-  print("Fibonnaci sequence:",nterms)
+  print("Fibonnaci sequence:",nterms,":")
   print(n1)
 else:
    print("Fibonacci sequence:")
