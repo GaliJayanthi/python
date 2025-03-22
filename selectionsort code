@@ -1,0 +1,13 @@
+def selsort(n):
+    for i in range(len(n)):
+        minpos=i 
+        for j in range(i,len(n)):
+            if n[j]<n[minpos]:
+                minpos=j 
+        temp=n[i]
+        n[i]=n[minpos]
+        n[minpos]=temp
+n=[5,3,2,6,9,4,1,7]
+selsort(n)
+print(n)
+        
